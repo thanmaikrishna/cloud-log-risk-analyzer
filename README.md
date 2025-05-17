@@ -39,5 +39,23 @@ Security events in AWS environments often go unnoticed due to the complexity and
 
 ---
 
+## 🛠️ Tools & Technologies Used
+
+This project leverages a combination of AWS services and Python libraries to build a functional and easy-to-understand CloudTrail log analyzer:
+
+| Tool / Service       | Purpose                                                                 |
+|----------------------|-------------------------------------------------------------------------|
+| **AWS CloudTrail**   | Captures and records AWS account activity as logs                       |
+| **Amazon S3**        | Stores CloudTrail logs for processing                                   |
+| **AWS EC2**          | Used to simulate AWS actions (e.g., start/stop instance) for testing    |
+| **Python 3.x**       | Core programming language used to build the analyzer                    |
+| **Pandas**           | Parses and processes logs into structured formats like CSV              |
+| **Gzip**             | Decompresses `.json.gz` CloudTrail log files                            |
+| **JSON Module**      | Parses log data from CloudTrail JSON files                              |
+| **Boto3** *(optional)* | AWS SDK for Python – can automate log retrieval if extended            |
+| **VS Code / PyCharm**| Code editor used for development                                        |
+| **Git & GitHub**     | Version control and open-source project hosting     
+
+
 ## 👨‍💻 Author
 Your Name – N Thanmai
