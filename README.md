@@ -15,18 +15,10 @@ Security events in AWS environments often go unnoticed due to the complexity and
 
 ## 🎯 Objective
 
-- 🔍 Parse and analyze AWS CloudTrail logs stored in S3 (`.json.gz`)
-- 🛡️ Assign each event a personalized **risk level** (Low, Medium, High)
-- 📊 Generate a **CSV report** showing risk details per event
-
----
 
 ## 📁 Features
 
-- ✅ Supports offline analysis of logs downloaded from S3
-- ✅ Customizable risk mapping for different event types
-- ✅ Outputs structured risk reports for audit or review
-- ✅ Beginner-friendly setup and usage
+
 
 ---
 
