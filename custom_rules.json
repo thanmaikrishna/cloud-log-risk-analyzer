@@ -1,0 +1,9 @@
+[
+  {
+    "name": "Suspicious IP",
+    "risk": "High",
+    "match": {
+      "sourceIPAddress": "192.168.1.100"
+    }
+  }
+]
