@@ -1,0 +1,109 @@
+/* Global styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Containers */
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 6px 12px rgb(0 0 0 / 0.1);
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:disabled {
+  background-color: #999;
+  cursor: not-allowed;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #007bff;
+  color: white;
+  padding: 1rem 2rem;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.header button {
+  background: white;
+  color: #007bff;
+  font-weight: 700;
+  padding: 0.3rem 0.8rem;
+}
+
+/* Layout */
+.flex-row {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.rules-editor {
+  height: 350px;
+  font-family: monospace;
+  background: #f7f7f7;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 4px;
+  overflow-y: scroll;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+/* Error message */
+.error-msg {
+  color: #b00020;
+  margin-bottom: 1rem;
+}
+
+/* Success message */
+.success-msg {
+  color: #2e7d32;
+  margin-bottom: 1rem;
+}
